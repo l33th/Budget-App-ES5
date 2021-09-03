@@ -45,7 +45,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: yellow;
 }
 
 .budget__title {
@@ -71,7 +71,7 @@ body {
 
 .budget__income {
     margin-bottom: 10px;
-    background-color: #28B9B5;
+    background-color: green;
 }
 
 .budget__expenses {
@@ -156,7 +156,7 @@ body {
     font-size: 35px;
     background: none;
     border: none;
-    color: #28B9B5;
+    color: green;
     cursor: pointer;
     display: inline-block;
     vertical-align: middle;
@@ -170,7 +170,7 @@ body {
 .add__description:focus,
 .add__value:focus {
     outline: none;
-    border: 1px solid #28B9B5;
+    border: 1px solid green;
 }
 
 .add__btn:focus { outline: none; }
@@ -199,7 +199,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-.icome__title { color: #28B9B5; }
+.icome__title { color: green; }
 .expenses__title { color: #FF5049; }
 
 .item {
@@ -233,7 +233,7 @@ h2 {
 
 .income .item__value,
 .income .item__delete--btn {
-    color: #28B9B5;
+    color: green;
 }
 
 .expenses .item__value,
